@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+{% extends "basic_App/base.html"%}
+  {% block body_block %}
+  <h1>WELCOME TO OTHER PAGE</h1>
+  <h1>{{sentence}}</h1>
+  <h2> {{age}}</h2>
+  <h3>{{sentence|cut:'IMRAAN'}}</h3>
+  <h3>{{sentence|cut:'SHIEK'}}</h3>
+  <h4>{{sentence|capfirst}}</h4>
+  <h4>{{sentence|first}}</h4>
+  <h4>{{sentence|join:'****'}}</h4>
+{% endblock %}
